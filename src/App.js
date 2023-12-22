@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <Container>
-      <h1 className='mb-5'>Form</h1>
+      <h1 className='mb-5'>Hello Decode</h1>
       Enter your Name: <input value={name} onChange={(e) => setName(e.target.value)} className='form-control mb-4' />
       Enter your Email: <input value={email} onChange={(e) => setEmail(e.target.value)} className='form-control mb-4' />
       Enter your Password: <input value={pass} onChange={(e) => setPass(e.target.value)} className='form-control mb-4' />
